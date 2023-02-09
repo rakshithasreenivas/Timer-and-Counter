@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+.container{
+    display: block;
+    width:max-content;
+    height: max-content;
+    margin: 50px auto;
+}
+
+
+.radioBtns{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.radioBtns label{
+    margin-right: 10px;
+    margin-left: 5px;
+    font-size: 1.4rem;
+}

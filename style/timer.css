@@ -1,0 +1,43 @@
+
+.timerContainer{
+    display: block;
+    width: 150px;
+    margin: auto;
+    border: 2px solid rgb(5, 137, 93) ;
+    padding: 14px 20px;
+    text-align: center;
+    border-radius: 20px;
+    background: rgb(229, 3, 3);
+    margin-top: 100px;
+
+}
+
+.timerContainer h1,.timerBtns,p{
+    font-family: cursive;
+    background: rgb(245, 243, 243);
+}
+
+#startBtn,#resetBtn,#pauseBtn{
+    font-size: 0.02rem;
+    width: 75px;
+    padding: 7px 10px;
+    border: 1.5px solid rgb(165, 163, 163);
+    border-radius: 10px;
+    background:linear-gradient(to top,#c4c5c7 0%,#dcdddf 52%,#ebebeb 100%);
+}
+
+
+.timerBtns{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+#timerValue{
+    font-size: 1.0rem;
+    margin-top: 30px;
+}
+
+#startBtn:hover,#resetBtn:hover,#pauseBtn:hover{
+    transform: scale(1.2);
+}

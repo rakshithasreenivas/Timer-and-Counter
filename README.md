@@ -1,6 +1,7 @@
 # Timer-and-Counter
 
 The live link of this task is available at-
+ https://rakshithasreenivas.github.io/Timer-and-Counter/
 
 
 The application has two buttons timer and counter depending on which button is clicked either of which is shown.
